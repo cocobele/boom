@@ -8,7 +8,7 @@ include AROOT.'/lib/phpExcel/Classes/PHPExcel.php';
 include AROOT.'/lib/phpExcel/Classes/PHPExcel/Reader/Excel2007.php';
 include AROOT.'/lib/phpExcel/Classes/PHPExcel/Reader/Excel5.php';
 ini_set("memory_limit", -1);
-
+set_time_limit(0);
 function excel2array($filePath='',$sheet=0){
     if(empty($filePath) or !file_exists($filePath)){die('file not exists');}
     $PHPReader = new PHPExcel_Reader_Excel2007();        //建立reader对象
@@ -28,7 +28,7 @@ function excel2array($filePath='',$sheet=0){
         for($colIndex='A';$colIndex!=$allColumn;$colIndex++){
 
             $addr = $colIndex.$rowIndex;
-            $cell = $currentSheet->getCell($addr)->getValue();
+            $cell = $currentSheet->getCell($addr)->getFormattedValue();
             if($cell instanceof PHPExcel_RichText){ //富文本转换字符串
                 $cell = $cell->__toString();
             }
@@ -55,20 +55,18 @@ function getExcel($fileName,$headArr,$data){
     $objProps = $objPHPExcel->getProperties();
 
     //设置表头
-    $key = ord("A");
+    $key = "A";
     foreach($headArr as $v){
-        $colum = chr($key);
-        $objPHPExcel->setActiveSheetIndex(0) ->setCellValue($colum.'1', $v);
-        $key += 1;
+        $objPHPExcel->setActiveSheetIndex(0) ->setCellValue($key.'1', $v);
+        $key++;
     }
 
     $column = 2;
     $objActSheet = $objPHPExcel->getActiveSheet();
     foreach($data as $key => $rows){ //行写入
-        $span = ord("A");
+        $span = 'A';
         foreach($rows as $keyName=>$value){// 列写入
-            $j = chr($span);
-            $objActSheet->setCellValue($j.$column, $value);
+            $objActSheet->setCellValue($span.$column, $value);
             $span++;
         }
         $column++;

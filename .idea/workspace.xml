@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b856bedb-bdd1-42ce-871e-b088ae5164fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/excelDisposer.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/excelDisposer.function.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/script/excelDisposer/excelDisposer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/layout/web/main/excelDisposer/index.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/layout/web/default.tpl.html" afterPath="$PROJECT_DIR$/view/layout/web/default.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/filter.function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/excelDisposer.class.php" afterPath="$PROJECT_DIR$/controller/excelDisposer.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/excelDisposer.function.php" afterPath="$PROJECT_DIR$/model/excelDisposer.function.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/layout/web/header.tpl.html" afterPath="$PROJECT_DIR$/view/layout/web/header.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/layout/web/main/default/index.tpl.html" afterPath="$PROJECT_DIR$/view/layout/web/main/default/index.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/layout/web/side/default/index.tpl.html" afterPath="$PROJECT_DIR$/view/layout/web/side/default/index.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="boom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,18 +32,18 @@
       <file leaf-file-name="default.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/default.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="45" selection-start="345" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1710">
+            <state line="14" column="45" selection-start="345" selection-end="365" vertical-scroll-proportion="-3.392857" vertical-offset="171" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="excelDisposer.class.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="excelDisposer.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/excelDisposer.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="9" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.7880184" vertical-offset="0" max-vertical-offset="868">
+            <state line="56" column="100" selection-start="1838" selection-end="1838" vertical-scroll-proportion="-24.892857" vertical-offset="367" max-vertical-offset="1482">
               <folding>
-                <marker date="1456844050655" expanded="true" signature="308:390" placeholder="INSERT INTO ..." />
+                <marker date="1456906450559" expanded="true" signature="366:448" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -55,17 +52,48 @@
       <file leaf-file-name="header.tpl.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/layout/web/header.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="43" selection-start="575" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="456">
+            <state line="18" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="-12.214286" vertical-offset="0" max-vertical-offset="456">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="excelDisposer.function.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="excelDisposer.function.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/excelDisposer.function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="37" selection-start="2962" selection-end="2962" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1957">
+            <state line="30" column="68" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.41962174" vertical-offset="215" max-vertical-offset="1919">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cell.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/phpExcel/Classes/PHPExcel/Cell.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="185" column="37" selection-start="4650" selection-end="4667" vertical-scroll-proportion="-17.178572" vertical-offset="3034" max-vertical-offset="19722">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.function.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/filter.function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="7" selection-end="387" vertical-scroll-proportion="-0.4871795" vertical-offset="0" max-vertical-offset="399">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.function.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/user.function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="1" selection-end="6" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="551">
+              <folding>
+                <marker date="1438852613794" expanded="true" signature="48:66" placeholder="SELECT * FRO..user..." />
+                <marker date="1438852613794" expanded="true" signature="345:376" placeholder="delete from ..." />
+                <marker date="1438852613794" expanded="true" signature="484:521" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,11 +143,12 @@
         <option value="$PROJECT_DIR$/view/layout/web/main/default/index.tpl.html" />
         <option value="$PROJECT_DIR$/view/layout/web/main/boom/excelDisposer.tpl.html" />
         <option value="$PROJECT_DIR$/controller/excelDisposer.php" />
-        <option value="$PROJECT_DIR$/view/layout/web/header.tpl.html" />
         <option value="$PROJECT_DIR$/view/layout/web/default.tpl.html" />
         <option value="$PROJECT_DIR$/view/layout/web/main/excelDisposer/index.tpl.html" />
-        <option value="$PROJECT_DIR$/controller/excelDisposer.class.php" />
         <option value="$PROJECT_DIR$/static/script/excelDisposer/excelDisposer.js" />
+        <option value="$PROJECT_DIR$/view/layout/web/header.tpl.html" />
+        <option value="$PROJECT_DIR$/model/filter.function.php" />
+        <option value="$PROJECT_DIR$/controller/excelDisposer.class.php" />
         <option value="$PROJECT_DIR$/model/excelDisposer.function.php" />
       </list>
     </option>
@@ -189,14 +218,6 @@
               <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -208,141 +229,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="side" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excelDisposer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excelDisposer" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -487,7 +374,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/controller/default.class.php">
@@ -501,7 +390,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="32" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <folding>
-            <marker date="1456844050655" expanded="true" signature="308:390" placeholder="INSERT INTO ..." />
+            <marker date="1456906450559" expanded="true" signature="366:448" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -555,17 +444,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/app.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/app.function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/user.function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="574" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="551" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/layout/web/main/default/test.tpl.html">
@@ -575,7 +461,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/default.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="345" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1710">
+        <state line="14" column="45" selection-start="345" selection-end="365" vertical-scroll-proportion="-3.392857" vertical-offset="171" max-vertical-offset="1710">
           <folding />
         </state>
       </provider>
@@ -609,13 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/layout/web/header.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="575" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/script/excelDisposer/excelDisposer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="16" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
@@ -623,19 +502,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/excelDisposer.function.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="37" selection-start="2962" selection-end="2962" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1957">
+        <state line="195" column="12" selection-start="5486" selection-end="5489" vertical-scroll-proportion="0.34397164" vertical-offset="3414" max-vertical-offset="20121">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/user.function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="1" selection-end="6" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="551">
+          <folding>
+            <marker date="1438852613794" expanded="true" signature="48:66" placeholder="SELECT * FRO..user..." />
+            <marker date="1438852613794" expanded="true" signature="345:376" placeholder="delete from ..." />
+            <marker date="1438852613794" expanded="true" signature="484:521" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/layout/web/header.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="-12.214286" vertical-offset="0" max-vertical-offset="456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/phpExcel/Classes/PHPExcel/Cell.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="37" selection-start="4650" selection-end="4667" vertical-scroll-proportion="-17.178572" vertical-offset="3034" max-vertical-offset="19722">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/filter.function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="7" selection-end="387" vertical-scroll-proportion="-0.4871795" vertical-offset="0" max-vertical-offset="399">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/excelDisposer.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="9" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.7880184" vertical-offset="0" max-vertical-offset="868">
+        <state line="56" column="100" selection-start="1838" selection-end="1838" vertical-scroll-proportion="-24.892857" vertical-offset="367" max-vertical-offset="1482">
           <folding>
-            <marker date="1456844050655" expanded="true" signature="308:390" placeholder="INSERT INTO ..." />
+            <marker date="1456906450559" expanded="true" signature="366:448" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/excelDisposer.function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="68" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.41962174" vertical-offset="215" max-vertical-offset="1919">
+          <folding />
         </state>
       </provider>
     </entry>
