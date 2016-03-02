@@ -1,0 +1,14 @@
+<link rel='stylesheet' href='static/css/jquery-ui.css'>
+<link rel='stylesheet prefetch' href='static/css/bootstrap3.min.css'>
+<script src='static/script/jquery_and_jqueryui.js'></script>
+
+<div class="hero-unit">
+    <form action="?c=excelDisposer&a=getFile" enctype="multipart/form-data" method="post" id="myform">
+        <p>上传文件：<input type="file" id="myfile" name="upfile" /></p>
+        <p><input type="text" class="input-lg" value="" name="column" placeholder="请输入筛选列"></p>
+        <p><input type="text" class="input-lg" value="" name="sieve" placeholder="请输入筛选值"></p>
+        <input type="button" id="uploadFile" value="上传" />
+    </form>
+</div>
+
+<script src="static/script/excelDisposer/excelDisposer.js"></script>

@@ -1,63 +1,26 @@
-<div class="hero-unit">
-            <h1>~~~~~~~~~~~</h1>
-            <p></p>
-            <p>在线报名系统</p>
-<p>每周三晚组织活动
-    </p>
-
-<p>望大家踊跃报名
-</p>
-          </div>
-
-
 <link rel='stylesheet' href='static/css/jquery-ui.css'>
 <link rel='stylesheet prefetch' href='static/css/bootstrap3.min.css'>
 <script src='static/script/jquery_and_jqueryui.js'></script>
 
+<div class="hero-unit">
+            <h1>~~~~~~~~~~~</h1>
+            <p></p>
+            <p>后花园实验室</p>
+          </div>
+
+
+
 <div class="row-fluid">
-    <div class="span8">
-
-    <form action="?a=record" id="record" class="well"><h4>报名表单</h4>
-        <div id="dropzone" class="well">
-        </div>
-    <input type="button" class="btn" value="提交" onclick="send_bill('record')" />
-</form>
-
-
-</div><!--/span-->
-
-    <div class="span4">
-
-
-        <form action="?a=pay_site" id="pay_site" class="well">
-
-                <input type="text" name="amount" placeholder="费用"/>
-                <input type="text" name="date" class="datepicker" placeholder="日期"/>
-                 <input type="text" name="note" placeholder="场地数量"/>
-                <input type="button" class="btn" value="提交场地开销" onclick="send_account('pay_site')" />
-
+    <div class="span12">
+        <form action="?a=record" id="record" class="well"><h4>召唤台</h4>
+            <div id="dropzone" class="well">
+            </div>
+        <input type="button" class="btn" value="boom" onclick="send_bill('record')" />
         </form>
-
-        <form action="?a=pay_badminton" id="pay_badminton" class="well">
-            <input type="text" name="amount" placeholder="费用"/>
-            <input type="text" class="datepicker" name="date" placeholder="日期"/>
-            <input type="text" name="note" placeholder="型号与数量"/>
-            <input type="button" class="btn" value="提交购球花销" onclick="send_account('pay_badminton')" />
-        </form>
-
-        <form action="?a=offer" id="offer" class="well">
-            <input type="text" name="amount" placeholder="赞助经费"/>
-            <input type="text" class="datepicker" name="date" placeholder="日期"/>
-            <input type="text" name="note" placeholder="备注"/>
-            <input type="button" class="btn" value="报销到账" onclick="send_account('offer')" />
-        </form>
-
-
-
     </div><!--/span-->
 </div><!--/row-->
 
-<script>$(".datepicker").datepicker({dateFormat: 'yy-mm-dd'});</script>
+<!--<script>$(".datepicker").datepicker({dateFormat: 'yy-mm-dd'});</script>-->
 
 
 
