@@ -1,0 +1,20 @@
+<link rel='stylesheet' href='static/css/jquery-ui.css'>
+<link rel='stylesheet prefetch' href='static/css/bootstrap3.min.css'>
+<script src='static/script/jquery_and_jqueryui.js'></script>
+
+
+<div class="hero-unit">
+    <h2>Vanni的公式：</h2>
+    <p>一级筛选：'人口数量'是否大于50万</p>
+    <p>二级筛选：'剩余焚烧处理规模'是否大于50吨</p>
+    <p>'剩余焚烧处理规模'='人口数量'×'人均生活垃圾产生量'×'清运率'×'无害化处理率'='无害化处理规模'-'城市现存焚烧处理规模'</p>
+
+</div><!--/span-->
+<div class="hero-unit">
+    <form action="?c=excelDisposer&a=getFile" enctype="multipart/form-data" method="post" id="myform">
+        <p>上传文件：<input type="file" id="myfile" name="upfile" /></p>
+        <input type="button" id="uploadFile" value="上传" />
+    </form>
+</div>
+
+<script src="static/script/excelDisposer/excelDisposer.js"></script>
