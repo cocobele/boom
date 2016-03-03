@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b856bedb-bdd1-42ce-871e-b088ae5164fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.config.php" afterPath="$PROJECT_DIR$/config/app.config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/layout/web/header.tpl.html" afterPath="$PROJECT_DIR$/view/layout/web/header.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="boom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="header.tpl.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/layout/web/header.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="786" selection-end="786" vertical-scroll-proportion="0.4021164" vertical-offset="0" max-vertical-offset="756">
+            <state line="8" column="37" selection-start="372" selection-end="372" vertical-scroll-proportion="0.2010582" vertical-offset="0" max-vertical-offset="756">
               <folding />
             </state>
           </provider>
@@ -809,7 +807,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/layout/web/header.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="786" selection-end="786" vertical-scroll-proportion="0.4021164" vertical-offset="0" max-vertical-offset="756">
+        <state line="8" column="37" selection-start="372" selection-end="372" vertical-scroll-proportion="0.2010582" vertical-offset="0" max-vertical-offset="756">
           <folding />
         </state>
       </provider>
