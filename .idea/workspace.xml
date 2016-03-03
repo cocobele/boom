@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b856bedb-bdd1-42ce-871e-b088ae5164fc" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\www\lixu\boom\model\user.function.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/default.class.php" afterPath="$PROJECT_DIR$/controller/default.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/layout/web/side/default/index.tpl.html" afterPath="$PROJECT_DIR$/view/layout/web/side/default/index.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_lp/lp.init.php" afterPath="$PROJECT_DIR$/_lp/lp.init.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="boom.iws" />
@@ -28,96 +26,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/default.class.php">
+      <file leaf-file-name="app.config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/app.config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="230" selection-end="254" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="456">
-              <folding>
-                <marker date="1456986250058" expanded="true" signature="20:104" placeholder="INSERT INTO ..." />
-                <marker date="1456986250058" expanded="true" signature="268:328" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.tpl.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/layout/web/side/default/index.tpl.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.38089624" vertical-offset="0" max-vertical-offset="848">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="152">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="excelDisposer.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/excelDisposer.class.php">
+      <file leaf-file-name="url.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_lp/simpletest/url.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="100" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="1482">
-              <folding>
-                <marker date="1456906450559" expanded="true" signature="366:448" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.tpl.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/layout/web/header.tpl.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="456">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="10450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="excelDisposer.function.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/excelDisposer.function.php">
+      <file leaf-file-name="http.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_lp/simpletest/http.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="68" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.0" vertical-offset="215" max-vertical-offset="1919">
+            <state line="0" column="0" selection-start="0" selection-end="6" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="11932">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cell.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/phpExcel/Classes/PHPExcel/Cell.php">
+      <file leaf-file-name="pear_test_case.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_lp/simpletest/extensions/pear_test_case.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="37" selection-start="4650" selection-end="4667" vertical-scroll-proportion="0.0" vertical-offset="3034" max-vertical-offset="19722">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3724">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filter.function.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/filter.function.php">
+      <file leaf-file-name="arguments.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_lp/simpletest/arguments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="7" selection-end="387" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="399">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="101.78571" vertical-offset="2850" max-vertical-offset="4256">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.tpl.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/layout/web/main/excelDisposer/index.tpl.html">
+      <file leaf-file-name="core.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_lp/core/controller/core.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="11" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="380">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="608">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="excelDisposer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/script/excelDisposer/excelDisposer.js">
+      <file leaf-file-name="core.config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_lp/core/config/core.config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="551">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="247">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/script/app.js">
+      <file leaf-file-name="core.function.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_lp/core/lib/core.function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="88" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="3439">
+            <state line="136" column="49" selection-start="2733" selection-end="2733" vertical-scroll-proportion="-20.821428" vertical-offset="2001" max-vertical-offset="5301">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lp.init.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_lp/lp.init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="20" selection-start="826" selection-end="826" vertical-scroll-proportion="0.920354" vertical-offset="88" max-vertical-offset="1197">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.function.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/app.function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="171">
               <folding />
             </state>
           </provider>
@@ -140,7 +133,6 @@
         <option value="$PROJECT_DIR$/view/layout/web/main/default/index.tpl.html" />
         <option value="$PROJECT_DIR$/view/layout/web/main/boom/excelDisposer.tpl.html" />
         <option value="$PROJECT_DIR$/controller/excelDisposer.php" />
-        <option value="$PROJECT_DIR$/view/layout/web/default.tpl.html" />
         <option value="$PROJECT_DIR$/view/layout/web/main/excelDisposer/index.tpl.html" />
         <option value="$PROJECT_DIR$/static/script/excelDisposer/excelDisposer.js" />
         <option value="$PROJECT_DIR$/view/layout/web/header.tpl.html" />
@@ -149,6 +141,8 @@
         <option value="$PROJECT_DIR$/model/excelDisposer.function.php" />
         <option value="$PROJECT_DIR$/controller/default.class.php" />
         <option value="$PROJECT_DIR$/view/layout/web/side/default/index.tpl.html" />
+        <option value="$PROJECT_DIR$/view/layout/web/default.tpl.html" />
+        <option value="$PROJECT_DIR$/_lp/lp.init.php" />
       </list>
     </option>
   </component>
@@ -354,7 +348,163 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpExcel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,6 +548,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -408,7 +559,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -437,10 +587,7 @@
     <entry file="file://$PROJECT_DIR$/controller/default.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="45" selection-start="345" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1710">
-          <folding>
-            <marker date="1456986250058" expanded="true" signature="20:104" placeholder="INSERT INTO ..." />
-            <marker date="1456986250058" expanded="true" signature="268:328" placeholder="INSERT INTO ..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -448,7 +595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="100" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="1482">
           <folding>
-            <marker date="1456906450559" expanded="true" signature="366:448" placeholder="INSERT INTO ..." />
+            <marker date="1456906450559" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -505,10 +652,7 @@
     <entry file="file://$PROJECT_DIR$/controller/default.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="45" selection-start="345" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1710">
-          <folding>
-            <marker date="1456986250058" expanded="true" signature="20:104" placeholder="INSERT INTO ..." />
-            <marker date="1456986250058" expanded="true" signature="268:328" placeholder="INSERT INTO ..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -516,7 +660,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="32" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <folding>
-            <marker date="1456906450559" expanded="true" signature="366:448" placeholder="INSERT INTO ..." />
+            <marker date="1456906450559" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -573,19 +717,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app.function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/layout/web/main/default/test.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/layout/web/default.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="48" selection-start="1955" selection-end="1999" vertical-scroll-proportion="0.6855792" vertical-offset="598" max-vertical-offset="1463" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/layout/web/main/default/index.tpl.html">
@@ -642,15 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/excelDisposer.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="100" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="1482">
-          <folding>
-            <marker date="1456906450559" expanded="true" signature="366:448" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/filter.function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="7" selection-end="387" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="399">
@@ -658,19 +783,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/default.class.php">
+    <entry file="file://$PROJECT_DIR$/view/layout/web/side/default/index.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="230" selection-end="254" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="456">
+        <state line="17" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/excelDisposer.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="1482">
           <folding>
-            <marker date="1456986250058" expanded="true" signature="20:104" placeholder="INSERT INTO ..." />
-            <marker date="1456986250058" expanded="true" signature="268:328" placeholder="INSERT INTO ..." />
+            <marker date="1456906450559" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/layout/web/side/default/index.tpl.html">
+    <entry file="file://$PROJECT_DIR$/view/layout/web/default.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.38089624" vertical-offset="0" max-vertical-offset="848">
+        <state line="49" column="120" selection-start="1551" selection-end="1551" vertical-scroll-proportion="-12.964286" vertical-offset="568" max-vertical-offset="1463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_lp/st.init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="32" selection-start="331" selection-end="331" vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app.function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="171">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/default.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="230" selection-end="254" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="876">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_lp/simpletest/url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_lp/simpletest/http.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="6" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="11932">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_lp/simpletest/extensions/pear_test_case.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3724">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_lp/simpletest/arguments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="101.78571" vertical-offset="2850" max-vertical-offset="4256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_lp/core/controller/core.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_lp/core/config/core.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.19655173" vertical-offset="0" max-vertical-offset="4408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_lp/core/lib/core.function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="49" selection-start="2733" selection-end="2733" vertical-scroll-proportion="-20.821428" vertical-offset="2001" max-vertical-offset="5301">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_lp/lp.init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="20" selection-start="826" selection-end="826" vertical-scroll-proportion="0.920354" vertical-offset="88" max-vertical-offset="1197">
           <folding />
         </state>
       </provider>

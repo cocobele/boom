@@ -24,8 +24,13 @@ include_once( AROOT . 'config' . DS . 'app.config.php' );
 $c = $GLOBALS['c'] = v('c') ? v('c') : c('default_controller');
 $a = $GLOBALS['a'] = v('a') ? v('a') : c('default_action');
 
+/*
+ * modified by lixu
 $c = basename(strtolower( z($c) ));
 $a =  basename(strtolower( z($a) ));
+*/
+$c = basename( z($c) );
+$a =  basename(z($a));
 
 $post_fix = '.class.php';
 
