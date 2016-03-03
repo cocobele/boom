@@ -72,7 +72,7 @@ function getExcel($fileName,$headArr,$data){
         $column++;
     }
 
-    $fileName = iconv("utf-8", "gb2312", $fileName);
+    $fileName = 'tmp'.DIRECTORY_SEPARATOR.iconv("utf-8", "gb2312", $fileName);
     //重命名表
     $objPHPExcel->getActiveSheet()->setTitle('Simple');
     //设置活动单指数到第一个表,所以Excel打开这是第一个表
@@ -82,13 +82,8 @@ function getExcel($fileName,$headArr,$data){
     header("Content-Disposition: attachment; filename=\"$fileName\"");
     header('Cache-Control: max-age=0');*/
     $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
-    $objWriter->save($fileName);exit;
-    if(!empty($_GET['excel'])){
-        $objWriter->save('php://output'); //文件通过浏览器下载
-    }else{
-        $objWriter->save($fileName); //脚本方式运行，保存在当前目录
-    }
-    exit;
+    $objWriter->save($fileName);
+    return $fileName;
 
 }
 
