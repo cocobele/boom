@@ -37,7 +37,7 @@ class excelDisposerController extends appController
             $fileUrl=getExcel($fileName,$headArr,$result);
             $data=array();
             $data['status']=1;
-            $data['url']=AROOT.$fileUrl;
+            $data['url']=g('webRoot').$fileUrl;
             echo json_encode($data,true);
         }
 
