@@ -13,7 +13,7 @@
             contentType: false, //不可缺
             processData: false, //不可缺
             success: function(data) {
-                location.href=data.url;
+                window.open(data.url);
             }
 
         });

@@ -72,7 +72,7 @@ function getExcel($fileName,$headArr,$data){
         $column++;
     }
 
-    $fileName = 'tmp'.DIRECTORY_SEPARATOR.iconv("utf-8", "gb2312", $fileName);
+    $fileName = DIRECTORY_SEPARATOR.'tmp'.DIRECTORY_SEPARATOR.iconv("utf-8", "gb2312", $fileName);
     //重命名表
     $objPHPExcel->getActiveSheet()->setTitle('Simple');
     //设置活动单指数到第一个表,所以Excel打开这是第一个表
