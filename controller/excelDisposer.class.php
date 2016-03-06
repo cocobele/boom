@@ -34,10 +34,10 @@ class excelDisposerController extends appController
             }
             $fileName = "test_excel";
             $headArr = $data[1];
-            $fileUrl=getExcel($fileName,$headArr,$result);
-            $data=array();
+            $fileUrl=getExcel($fileName,$headArr,$result);           
+$data=array();
             $data['status']=1;
-            $data['url']='index.php?c=excelDisposer&a=export&file='.$fileUrl;
+            $data['url']=DS.'boom'.$fileUrl;
             echo json_encode($data,true);
         }
     }
