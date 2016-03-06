@@ -61,6 +61,7 @@ class excelDisposerController extends appController
 
    function xsendfile(){
     $file = v('file');
+       echo $file;exit;
     $filename = basename($file);
        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
     //处理中文文件名
