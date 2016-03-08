@@ -12,6 +12,7 @@ class dickerleinController extends appController
 
     function index()
     {
+        phpinfo();exit;
         $data['title'] =$data['top_title'] = 'excel处刑人';
         render( $data );
     }
@@ -40,7 +41,11 @@ class dickerleinController extends appController
             }
             $fileName = "test_excel";
             $headArr = $data[1];
-            getExcel($fileName,$headArr,$result);
+            $fileUrl=getExcel($fileName,$headArr,$result);
+            $data=array();
+            $data['status']=1;
+            $data['url']='index.php?c=excelDisposer&a=export&file='.$fileUrl;
+            echo json_encode($data,true);
         }
 
     }
