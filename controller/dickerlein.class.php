@@ -12,6 +12,7 @@ class dickerleinController extends appController
 
     function index()
     {
+        phpinfo();exit;
         $data['title'] =$data['top_title'] = 'excel处刑人';
         render( $data );
     }
