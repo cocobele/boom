@@ -12,7 +12,6 @@ class dickerleinController extends appController
 
     function index()
     {
-        phpinfo();exit;
         $data['title'] =$data['top_title'] = 'excel处刑人';
         render( $data );
     }
@@ -28,15 +27,9 @@ class dickerleinController extends appController
             $tmp_name=$upfile["tmp_name"];//上传文件的临时存放路径
             $data=excel2array($tmp_name,1);
             $result=array();
-          /*  foreach($data as $one){
-                if($one[$column]=$sieve){
-                    array_push($result,$one);
-                }
-            }*/
             foreach($data as $one){
                 if($this->prepare_data($one)){
                     array_push($result,$one);
-                    echo $one['B'].'<br/>';
                 }
             }
             $fileName = "test_excel";
