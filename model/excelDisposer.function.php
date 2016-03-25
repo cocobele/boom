@@ -82,7 +82,14 @@ function getExcel($fileName,$headArr,$data){
     header("Content-Disposition: attachment; filename=\"$fileName\"");
     header('Cache-Control: max-age=0');*/
     $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
-    $objWriter->save($fileName);
+    if($objWriter->save($fileName)){
+        echo 'true';
+        exit;
+    }else{
+        echo 'false';
+        exit;
+    };
+
     return $fileName;
 
 }
