@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b856bedb-bdd1-42ce-871e-b088ae5164fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="DELETED" beforePath="E:\www\lixu\boom\tmp\test_excel_2016_03_03.xlsx" afterPath="" />
       <change type="DELETED" beforePath="E:\www\lixu\boom\tmp\test_excel_2016_03_04.xlsx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/excelDisposer.function.php" afterPath="$PROJECT_DIR$/model/excelDisposer.function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="boom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,19 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dickerlein.class.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dickerlein.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/dickerlein.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="6" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1444">
+            <state line="0" column="0" selection-start="0" selection-end="6" vertical-scroll-proportion="-0.004597701" vertical-offset="4" max-vertical-offset="1444">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="excelDisposer.function.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="excelDisposer.function.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/excelDisposer.function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="13" selection-start="3047" selection-end="3047" vertical-scroll-proportion="0.95632184" vertical-offset="859" max-vertical-offset="1957">
+            <state line="84" column="17" selection-start="2936" selection-end="2946" vertical-scroll-proportion="-50.75" vertical-offset="175" max-vertical-offset="1957">
               <folding />
             </state>
           </provider>
@@ -889,16 +885,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/dickerlein.class.php">
+    <entry file="file://$PROJECT_DIR$/model/excelDisposer.function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="6" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1444">
+        <state line="84" column="17" selection-start="2936" selection-end="2946" vertical-scroll-proportion="-50.75" vertical-offset="175" max-vertical-offset="1957">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/excelDisposer.function.php">
+    <entry file="file://$PROJECT_DIR$/controller/dickerlein.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="13" selection-start="3047" selection-end="3047" vertical-scroll-proportion="0.95632184" vertical-offset="859" max-vertical-offset="1957">
+        <state line="0" column="0" selection-start="0" selection-end="6" vertical-scroll-proportion="-0.004597701" vertical-offset="4" max-vertical-offset="1444">
           <folding />
         </state>
       </provider>
