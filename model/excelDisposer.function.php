@@ -87,6 +87,7 @@ function getExcel($fileName,$headArr,$data){
         exit;
     }else{
         echo 'false';
+	echo $fileName;
         exit;
     };
 
